@@ -4,7 +4,15 @@ import Tittles from './TheBandTittle'
 
 export default function TheBand() {
     return (
-        <Flex bg="black" px={10} pt={5} pb={20}>
+        <Flex
+            bg="black"
+            px={10}
+            pt={5}
+            pb={20}
+            backgroundImage="url('./assets/skyandstars.png')"
+            bgRepeat="repeat"
+            bgSize="contain"
+        >
             <Flex direction="column" w="50%">
                 {' '}
                 <TheBandTittle />

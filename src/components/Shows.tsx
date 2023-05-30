@@ -16,8 +16,8 @@ export default function Shows() {
         <Flex
             direction="column"
             background="black"
-            backgroundImage="url('./assets/nuvemvirada.png')"
-            bgRepeat="no-repeat"
+            backgroundImage="url('./assets/skyandstars.png')"
+            bgRepeat="repeat"
             bgSize="contain"
             alignItems="center"
         >

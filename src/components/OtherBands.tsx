@@ -9,6 +9,9 @@ export default function OtherBands() {
             justifyContent="center"
             alignItems="center"
             pt={10}
+            backgroundImage="url('./assets/skyandstars.png')"
+            bgRepeat="repeat"
+            bgSize="contain"
         >
             <OtherBandsTittle />
             <Flex

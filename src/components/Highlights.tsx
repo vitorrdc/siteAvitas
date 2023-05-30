@@ -4,7 +4,13 @@ import HighlightsTittle from './HighlightsTittle'
 
 export default function Highlights() {
     return (
-        <Flex direction="column" bg="black">
+        <Flex
+            direction="column"
+            bg="black"
+            backgroundImage="url('./assets/skyandstars.png')"
+            bgRepeat="repeat"
+            bgSize="contain"
+        >
             <HighlightsTittle />
             <Flex alignItems="center" justifyContent="space-around">
                 <Box position="relative">

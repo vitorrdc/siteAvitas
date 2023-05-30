@@ -9,7 +9,7 @@ export default function News() {
             alignItems="center"
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
-            bgSize="cover"
+            bgSize="contain"
             p="30px"
         >
             <Heading lineHeight="tall">

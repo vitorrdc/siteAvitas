@@ -26,6 +26,7 @@ export default function Home() {
             <News />
             <Musicians />
             <Shows />
+
             <ShowsFormat />
             <Highlights />
             <OtherBands />

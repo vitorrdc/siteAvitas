@@ -13,12 +13,15 @@ import MusiciansTittle from './MusiciansTittle'
 
 export default function Musicians() {
     return (
-        <Flex direction="column" bg="black" pt="20px">
-            <Box
-                backgroundImage="url('./assets/nuvem.png')"
-                bgRepeat="repeat"
-                bgSize="cover"
-            >
+        <Flex
+            direction="column"
+            bg="black"
+            pt="20px"
+            backgroundImage="url('./assets/skyandstars.png')"
+            bgRepeat="repeat"
+            bgSize="contain"
+        >
+            <Box>
                 {' '}
                 <MusiciansTittle />
                 <Flex
