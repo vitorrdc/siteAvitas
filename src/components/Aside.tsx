@@ -39,48 +39,17 @@ export default function Aside() {
                     <Box mb={1}>
                         <Icon as={ArrowDownIcon} color="white" mb={1} />
                     </Box>
-                    <Box
-                        _hover={{
-                            background: 'green.700',
-                            borderRadius: '3px',
-                            cursor: 'pointer'
-                        }}
-                        mb={2}
-                    >
+                    <Box mb={2} _hover={{ cursor: 'pointer' }}>
                         {' '}
                         <FaSpotify color="white" size={26} />
                     </Box>
-                    <Box
-                        _hover={{
-                            background: 'green.700',
-                            borderRadius: '3px',
-                            cursor: 'pointer',
-                            width: 'full'
-                        }}
-                        mb={2}
-                    >
+                    <Box mb={2} _hover={{ cursor: 'pointer' }}>
                         <FaInstagram color="white" size={26} />
                     </Box>
-                    <Box
-                        _hover={{
-                            background: 'green.700',
-                            borderRadius: '3px',
-                            cursor: 'pointer',
-                            width: 'full'
-                        }}
-                        mb={2}
-                    >
+                    <Box mb={2} _hover={{ cursor: 'pointer' }}>
                         <FaYoutube color="white" size={26} />
                     </Box>
-                    <Box
-                        _hover={{
-                            background: 'green.700',
-                            borderRadius: '3px',
-                            cursor: 'pointer',
-                            width: 'full'
-                        }}
-                        mb={2}
-                    >
+                    <Box mb={2} _hover={{ cursor: 'pointer' }}>
                         <Icon as={EmailIcon} color="white" w={6} h={6} />
                     </Box>
                 </Flex>

@@ -20,6 +20,7 @@ export default function Shows() {
             bgRepeat="repeat"
             bgSize="contain"
             alignItems="center"
+            pt={20}
         >
             <ShowsTittle />
             <Flex width="90%" justifyContent="space-around" p="30px">
@@ -61,6 +62,7 @@ export default function Shows() {
                     borderColor="green.700"
                     px="15px"
                     pt="15px"
+                    width="40%"
                 >
                     <Text color="white" fontWeight="semibold" fontSize="4xl">
                         SÃO PAULO/SP

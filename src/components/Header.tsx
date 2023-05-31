@@ -23,19 +23,50 @@ export default function Header() {
                     </Text>
 
                     <Flex color="white">
-                        <Link _hover={{ color: 'green.700' }} mr={4}>
-                            Inicio
+                        <Link
+                            _hover={{ color: 'green.700' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize="lg"
+                        >
+                            Início
                         </Link>
-                        <Link _hover={{ color: 'green.700' }} mr={4}>
+                        <Link
+                            _hover={{ color: 'green.700' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize="lg"
+                        >
                             A Banda
                         </Link>
-                        <Link _hover={{ color: 'green.700' }} mr={4}>
+                        <Link
+                            _hover={{ color: 'green.700' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize="lg"
+                        >
                             Highlights
                         </Link>
-                        <Link _hover={{ color: 'green.700' }} mr={4}>
+                        <Link
+                            _hover={{ color: 'green.700' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize="lg"
+                        >
                             Hits
                         </Link>
-                        <Link _hover={{ color: 'green.700' }}>Contato</Link>
+                        <Link
+                            _hover={{ color: 'green.700' }}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize="lg"
+                        >
+                            Contato
+                        </Link>
                     </Flex>
                 </Flex>
             </Container>
