@@ -66,6 +66,12 @@ export default function Contact() {
                 alignItems="center"
                 minW="50%"
             >
+                <Img
+                    boxSize="100px"
+                    objectFit={'contain'}
+                    src="./assets/logo-branco.png"
+                    alt="Avitas"
+                />
                 <FormControl isRequired bg="black" p="20px" borderRadius="10px">
                     <FormLabel color="white">Nome</FormLabel>
                     <Input

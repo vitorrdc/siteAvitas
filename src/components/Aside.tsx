@@ -48,14 +48,31 @@ export default function Aside() {
                         <Icon as={ArrowDownIcon} color="white" mb={1} />
                     </Box>
                     <Box mb={2} _hover={{ cursor: 'pointer' }}>
-                        {' '}
-                        <FaSpotify color="white" size={26} />
+                        <a
+                            target="_blank"
+                            href="https://open.spotify.com/intl-pt/artist/4M6sY7dTWlsyiaS407HPrK"
+                            rel="noreferrer"
+                        >
+                            <FaSpotify color="white" size={26} />
+                        </a>
                     </Box>
                     <Box mb={2} _hover={{ cursor: 'pointer' }}>
-                        <FaInstagram color="white" size={26} />
+                        <a
+                            href="https://www.instagram.com/avitasoficial/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FaInstagram color="white" size={26} />
+                        </a>
                     </Box>
                     <Box mb={2} _hover={{ cursor: 'pointer' }}>
-                        <FaYoutube color="white" size={26} />
+                        <a
+                            href="https://www.youtube.com/@Avitasoficial"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FaYoutube color="white" size={26} />
+                        </a>
                     </Box>
                     <Box mb={2} _hover={{ cursor: 'pointer' }}>
                         <Icon as={EmailIcon} color="white" w={6} h={6} />
