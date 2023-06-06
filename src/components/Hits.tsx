@@ -1,16 +1,7 @@
-import {
-    Button,
-    ButtonGroup,
-    Divider,
-    Flex,
-    Heading,
-    Image,
-    Img,
-    Stack,
-    Text
-} from '@chakra-ui/react'
-import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import { Flex, Img, Text } from '@chakra-ui/react'
+
 import StreamingTittle from './StreamingTittle'
+import Link from 'next/link'
 
 export default function Hits() {
     return (
@@ -57,8 +48,14 @@ export default function Hits() {
                     <Text color="gray.300" mt="10px" fontSize="lg">
                         Lançamento: 11/2019
                     </Text>
-                    <Text color="gray.300" fontWeight="bold" fontSize="lg">
-                        Ouça agora no Spotify
+                    <Text color="green.500" fontWeight="bold" fontSize="lg">
+                        <a
+                            target="_blank"
+                            href="https://open.spotify.com/intl-pt/track/1toEd4ad1MYpzWgFhdeMJ9"
+                            rel="noreferrer"
+                        >
+                            Ouça agora no Spotify
+                        </a>
                     </Text>
                 </Flex>
                 <Flex
@@ -93,8 +90,14 @@ export default function Hits() {
                     <Text color="gray.300" mt="10px" fontSize="lg">
                         Lançamento: 03/2019
                     </Text>
-                    <Text color="gray.300" fontWeight="bold" fontSize="lg">
-                        Ouça agora no Spotify
+                    <Text color="green.500" fontWeight="bold" fontSize="lg">
+                        <a
+                            target="_blank"
+                            href="https://open.spotify.com/intl-pt/track/3jKwxDGKXDoGuaUcnWNnhN"
+                            rel="noreferrer"
+                        >
+                            Ouça agora no Spotify
+                        </a>
                     </Text>
                 </Flex>
             </Flex>

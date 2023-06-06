@@ -21,7 +21,15 @@ export default function Aside() {
                 direction="column"
                 justifyContent="space-around"
                 alignItems="center"
-                py={4}
+                p={3}
+                bg="gray.500"
+                borderRadius="lg"
+                _hover={{
+                    borderRadius: 'xl',
+                    transition: '2s',
+                    bg: 'green.600'
+                }}
+                mr={8}
             >
                 <Text
                     alignItems="center"

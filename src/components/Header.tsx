@@ -22,9 +22,22 @@ export default function Header() {
                         #HipRockRoots
                     </Text>
 
-                    <Flex color="white">
+                    <Flex
+                        color="white"
+                        bg="gray.500"
+                        p="12px"
+                        borderRadius="xl"
+                        _hover={{
+                            bg: 'green.600',
+                            borderRadius: 'xl',
+                            transition: '2s'
+                        }}
+                    >
                         <Link
-                            _hover={{ color: 'green.700' }}
+                            _hover={{
+                                color: 'black',
+                                transition: '0.5s'
+                            }}
                             mr={4}
                             fontFamily="body"
                             fontWeight="medium"
@@ -33,7 +46,7 @@ export default function Header() {
                             Início
                         </Link>
                         <Link
-                            _hover={{ color: 'green.700' }}
+                            _hover={{ color: 'black', transition: '0.5s' }}
                             mr={4}
                             fontFamily="body"
                             fontWeight="medium"
@@ -42,7 +55,7 @@ export default function Header() {
                             A Banda
                         </Link>
                         <Link
-                            _hover={{ color: 'green.700' }}
+                            _hover={{ color: 'black', transition: '0.5s' }}
                             mr={4}
                             fontFamily="body"
                             fontWeight="medium"
@@ -51,7 +64,7 @@ export default function Header() {
                             Highlights
                         </Link>
                         <Link
-                            _hover={{ color: 'green.700' }}
+                            _hover={{ color: 'black', transition: '0.5s' }}
                             mr={4}
                             fontFamily="body"
                             fontWeight="medium"
@@ -60,7 +73,7 @@ export default function Header() {
                             Hits
                         </Link>
                         <Link
-                            _hover={{ color: 'green.700' }}
+                            _hover={{ color: 'black', transition: '0.5s' }}
                             fontFamily="body"
                             fontWeight="medium"
                             fontSize="lg"
