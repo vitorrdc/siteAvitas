@@ -21,7 +21,8 @@ export default function Aside() {
                 direction="column"
                 justifyContent="space-around"
                 alignItems="center"
-                p={3}
+                px={{ base: '4px', md: '8px', lg: '12px' }}
+                py={{ base: '2px', md: '4px', lg: '8px' }}
                 bg="gray.500"
                 borderRadius="lg"
                 _hover={{

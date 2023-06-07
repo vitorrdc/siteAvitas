@@ -16,7 +16,10 @@ export default function TheBand() {
             <Flex direction="column" w="50%">
                 {' '}
                 <TheBandTittle />
-                <Text color="white">
+                <Text
+                    color="white"
+                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                >
                     Avitas é uma banda autoral formada em 2013, na cidade de
                     Boituva-SP, à partir da junção de amigos que decidiram tocar
                     um som sincero. No ano de 2017 a banda teve um hiato, e
@@ -33,7 +36,7 @@ export default function TheBand() {
             <Text
                 width="50%"
                 textAlign="center"
-                fontSize={60}
+                fontSize={{ base: '30px', md: '45px', lg: '60px' }}
                 color="white"
                 fontWeight="bold"
                 mt="auto"

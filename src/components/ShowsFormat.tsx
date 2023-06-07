@@ -12,7 +12,7 @@ export default function ShowsFormat() {
             <Img
                 src="./assets/fotoPB2.jpg"
                 alt="Banda Avitas"
-                minW="100vh"
+                boxSize="100%"
                 objectFit="contain"
             />
             <ShowsFormatTittle />

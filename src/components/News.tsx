@@ -26,13 +26,13 @@ export default function News() {
                 </Highlight>
             </Heading>
 
-            <Box color="gray.300" fontSize="6xl" mt="20px" fontWeight="bold">
+            <Box color="gray.400" fontSize="6xl" mt="20px" fontWeight="bold">
                 ILUMINAR.
             </Box>
 
             <Flex width="full" mt="35px">
                 <Text
-                    color="gray.300"
+                    color="gray.400"
                     fontSize="4xl"
                     ml="36"
                     fontWeight="medium"
@@ -40,7 +40,7 @@ export default function News() {
                     CABEÇA À TOA.
                 </Text>
                 <Text
-                    color="gray.300"
+                    color="gray.400"
                     fontSize="2xl"
                     mb="45px"
                     ml="96"
@@ -50,10 +50,10 @@ export default function News() {
                 </Text>
             </Flex>
 
-            <Text color="gray.300" fontSize="3xl" mr="100px">
+            <Text color="gray.400" fontSize="3xl" mr="100px">
                 DIZ QUE GOSTA QUANDO.
             </Text>
-            <Text color="gray.300" fontSize="5xl" ml="700px">
+            <Text color="gray.400" fontSize="5xl" ml="700px">
                 FLOR DO PÉ.
             </Text>
         </Flex>
