@@ -36,17 +36,26 @@ export default function Musicians() {
                     >
                         {' '}
                         <Img
-                            boxSize="150px"
+                            boxSize={{ base: '65px', md: '110px', lg: '150px' }}
                             borderRadius="full"
                             objectFit={'cover'}
                             src="./assets/amadinho.jpeg"
                             alt="Amadei"
                             backgroundColor="red"
                         />
-                        <Text color="white" fontWeight="bold" mt="15px">
+                        <Text
+                            color="white"
+                            fontWeight="bold"
+                            mt="15px"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Guitarrista
                         </Text>
-                        <Text color="white" fontWeight="medium">
+                        <Text
+                            color="white"
+                            fontWeight="medium"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Du Amadei - @duamadei
                         </Text>
                     </Flex>
@@ -57,17 +66,26 @@ export default function Musicians() {
                     >
                         {' '}
                         <Img
-                            boxSize="150px"
+                            boxSize={{ base: '65px', md: '110px', lg: '150px' }}
                             borderRadius="full"
                             objectFit={'cover'}
                             src="./assets/kaje.JPG"
                             alt="Jake"
                             backgroundColor="red"
                         />
-                        <Text color="white" fontWeight="bold" mt="15px">
+                        <Text
+                            color="white"
+                            fontWeight="bold"
+                            mt="15px"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Guitarrista
                         </Text>
-                        <Text color="white" fontWeight="medium">
+                        <Text
+                            color="white"
+                            fontWeight="medium"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Jake - @adrielbotequia
                         </Text>
                     </Flex>
@@ -78,17 +96,26 @@ export default function Musicians() {
                     >
                         {' '}
                         <Img
-                            boxSize="150px"
+                            boxSize={{ base: '65px', md: '110px', lg: '150px' }}
                             borderRadius="full"
                             objectFit={'cover'}
                             src="./assets/renan.jpg"
                             alt="Amadei"
                             backgroundColor="red"
                         />
-                        <Text color="white" fontWeight="bold" mt="15px">
+                        <Text
+                            color="white"
+                            fontWeight="bold"
+                            mt="15px"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Baterista
                         </Text>
-                        <Text color="white" fontWeight="medium">
+                        <Text
+                            color="white"
+                            fontWeight="medium"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Renan - @renangc
                         </Text>
                     </Flex>
@@ -105,17 +132,26 @@ export default function Musicians() {
                     >
                         {' '}
                         <Img
-                            boxSize="150px"
+                            boxSize={{ base: '65px', md: '110px', lg: '150px' }}
                             borderRadius="full"
                             objectFit={'cover'}
                             src="./assets/vital.jpg"
                             alt="Amadei"
                             backgroundColor="red"
                         />
-                        <Text color="white" fontWeight="bold" mt="15px">
+                        <Text
+                            color="white"
+                            fontWeight="bold"
+                            mt="15px"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Baixista
                         </Text>
-                        <Text color="white" fontWeight="medium">
+                        <Text
+                            color="white"
+                            fontWeight="medium"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Vital - @soueuvital
                         </Text>
                     </Flex>
@@ -126,17 +162,26 @@ export default function Musicians() {
                     >
                         {' '}
                         <Img
-                            boxSize="150px"
+                            boxSize={{ base: '65px', md: '110px', lg: '150px' }}
                             borderRadius="full"
                             objectFit={'cover'}
                             src="./assets/leony.png"
                             alt="Amadei"
                             backgroundColor="red"
                         />
-                        <Text color="white" fontWeight="bold" mt="15px">
+                        <Text
+                            color="white"
+                            fontWeight="bold"
+                            mt="15px"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Trompetista
                         </Text>
-                        <Text color="white" fontWeight="medium">
+                        <Text
+                            color="white"
+                            fontWeight="medium"
+                            fontSize={{ base: '12px', md: '16px', lg: '24px' }}
+                        >
                             Leo - @leonardopedrozo
                         </Text>
                     </Flex>
