@@ -126,7 +126,8 @@ export default function Header() {
                 />
                 <Flex
                     w="100vw"
-                    bgColor="green.50"
+                    bgColor="green.500"
+                    opacity={0.9}
                     zIndex={20}
                     h="100vh"
                     position="fixed"
@@ -152,67 +153,90 @@ export default function Header() {
                         <Link
                             _hover={{
                                 color: 'black',
-                                transition: '0.5s'
+                                transition: '0.5s',
+                                backgroundColor: 'gray.200'
                             }}
                             mr={4}
                             fontFamily="body"
-                            fontWeight="medium"
-                            fontSize={{
-                                base: 'smaller',
-                                md: 'medium',
-                                lg: 'lg'
-                            }}
+                            fontWeight="bold"
+                            fontSize="lg"
+                            py={3}
+                            width="20%"
+                            borderRadius={10}
+                            textAlign="center"
+                            color="white"
                         >
                             Início
                         </Link>
                         <Link
-                            _hover={{ color: 'black', transition: '0.5s' }}
+                            _hover={{
+                                color: 'black',
+                                transition: '0.5s',
+                                backgroundColor: 'gray.200'
+                            }}
                             mr={4}
                             fontFamily="body"
-                            fontWeight="medium"
-                            fontSize={{
-                                base: 'smaller',
-                                md: 'medium',
-                                lg: 'lg'
-                            }}
+                            fontWeight="bold"
+                            fontSize="lg"
+                            py={3}
+                            width="20%"
+                            borderRadius={10}
+                            textAlign="center"
+                            color="white"
                         >
                             A Banda
                         </Link>
                         <Link
-                            _hover={{ color: 'black', transition: '0.5s' }}
+                            _hover={{
+                                color: 'black',
+                                transition: '0.5s',
+                                backgroundColor: 'gray.200'
+                            }}
                             mr={4}
                             fontFamily="body"
-                            fontWeight="medium"
-                            fontSize={{
-                                base: 'smaller',
-                                md: 'medium',
-                                lg: 'lg'
-                            }}
+                            fontWeight="bold"
+                            fontSize="lg"
+                            py={3}
+                            width="20%"
+                            borderRadius={10}
+                            textAlign="center"
+                            color="white"
                         >
                             Highlights
                         </Link>
                         <Link
-                            _hover={{ color: 'black', transition: '0.5s' }}
+                            _hover={{
+                                color: 'black',
+                                transition: '0.5s',
+                                backgroundColor: 'gray.200'
+                            }}
                             mr={4}
                             fontFamily="body"
-                            fontWeight="medium"
-                            fontSize={{
-                                base: 'smaller',
-                                md: 'medium',
-                                lg: 'lg'
-                            }}
+                            fontWeight="bold"
+                            fontSize="lg"
+                            py={3}
+                            width="20%"
+                            borderRadius={10}
+                            textAlign="center"
+                            color="white"
                         >
                             Hits
                         </Link>
                         <Link
-                            _hover={{ color: 'black', transition: '0.5s' }}
-                            fontFamily="body"
-                            fontWeight="medium"
-                            fontSize={{
-                                base: 'smaller',
-                                md: 'medium',
-                                lg: 'lg'
+                            _hover={{
+                                color: 'black',
+                                transition: '0.5s',
+                                backgroundColor: 'gray.200'
                             }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="bold"
+                            fontSize="lg"
+                            py={3}
+                            width="20%"
+                            borderRadius={10}
+                            textAlign="center"
+                            color="white"
                         >
                             Contato
                         </Link>
