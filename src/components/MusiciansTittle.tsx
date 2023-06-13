@@ -2,7 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function MusiciansTittle() {
     return (
-        <Flex justifyContent="center" alignItems="center" p="30px">
+        <Flex justifyContent="center" alignItems="center" px="30px">
             <Text color="white" fontFamily="body" fontSize={35} p={2}>
                 a
             </Text>

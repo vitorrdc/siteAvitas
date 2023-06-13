@@ -40,7 +40,7 @@ export default function Hits() {
                         Made in Brasil
                     </Text>
                     <Img
-                        boxSize="250px"
+                        boxSize={{ base: '83%', md: '166px', lg: '250px' }}
                         objectFit={'contain'}
                         src="./assets/madeInBrasilCard.png"
                         alt="Made in Brasil"
@@ -82,7 +82,7 @@ export default function Hits() {
                         Pare, Se Ligue
                     </Text>
                     <Img
-                        boxSize="250px"
+                        boxSize={{ base: '83%', md: '166px', lg: '250px' }}
                         objectFit={'contain'}
                         src="./assets/pareSeLigue.png"
                         alt="Made in Brasil"

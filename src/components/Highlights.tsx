@@ -12,27 +12,27 @@ export default function Highlights() {
             bgSize="contain"
         >
             <HighlightsTittle />
-            <Flex alignItems="center" justifyContent="space-around">
+            <Flex alignItems="center" justifyContent="space-around" width="95%">
                 <Box position="relative">
                     <Img
-                        boxSize="100px"
+                        boxSize={{ base: '33px', md: '66px', lg: '100px' }}
                         objectFit={'contain'}
                         src="./assets/fita.png"
                         alt="fita"
                         position="absolute"
-                        left="80%"
+                        left={{ base: '26%', md: '80%', lg: '80%' }}
                     />{' '}
                     <Img
-                        boxSize="100px"
+                        boxSize={{ base: '33px', md: '66px', lg: '100px' }}
                         objectFit={'contain'}
                         src="./assets/fita.png"
                         alt="fita"
                         position="absolute"
-                        top="80%"
-                        left="-15%"
+                        top={{ base: '26%', md: '80%', lg: '80%' }}
+                        left={{ base: '-5%', md: '-10%', lg: '-15%' }}
                     />
                     <Img
-                        boxSize="300px"
+                        boxSize={{ base: '100px', md: '200px', lg: '300px' }}
                         objectFit={'contain'}
                         src="./assets/revista.jpeg"
                         alt="Avitas"
@@ -40,24 +40,24 @@ export default function Highlights() {
                 </Box>
                 <Box position="relative">
                     <Img
-                        boxSize="100px"
+                        boxSize={{ base: '33px', md: '66px', lg: '100px' }}
                         objectFit={'contain'}
                         src="./assets/fita.png"
                         alt="fita"
                         position="absolute"
-                        left="80%"
+                        left={{ base: '26%', md: '80%', lg: '80%' }}
                     />{' '}
                     <Img
-                        boxSize="100px"
+                        boxSize={{ base: '33px', md: '66px', lg: '100px' }}
                         objectFit={'contain'}
                         src="./assets/fita.png"
                         alt="fita"
                         position="absolute"
-                        top="70%"
-                        left="-10%"
+                        top={{ base: '26%', md: '70%', lg: '75%' }}
+                        left={{ base: '-3%', md: '-9%', lg: '-12%' }}
                     />
                     <Img
-                        boxSize="360px"
+                        boxSize={{ base: '100px', md: '200px', lg: '360px' }}
                         objectFit={'contain'}
                         src="./assets/mocao.jpeg"
                         alt="Avitas"
@@ -65,25 +65,25 @@ export default function Highlights() {
                 </Box>
                 <Box position="relative">
                     <Img
-                        boxSize="100px"
+                        boxSize={{ base: '33px', md: '66px', lg: '100px' }}
                         objectFit={'contain'}
                         src="./assets/fita.png"
                         alt="fita"
                         position="absolute"
-                        left="70%"
-                        top="-10%"
+                        top={{ base: '26%', md: '70%', lg: '75%' }}
+                        left={{ base: '-3%', md: '-9%', lg: '-12%' }}
                     />{' '}
                     <Img
-                        boxSize="100px"
+                        boxSize={{ base: '33px', md: '66px', lg: '100px' }}
                         objectFit={'contain'}
                         src="./assets/fita.png"
                         alt="fita"
                         position="absolute"
-                        top="80%"
-                        left="-15%"
+                        top={{ base: '-3%', md: '-5%', lg: '-5%' }}
+                        left={{ base: '26%', md: '70%', lg: '75%' }}
                     />
                     <Img
-                        boxSize="300px"
+                        boxSize={{ base: '100px', md: '150px', lg: '300px' }}
                         objectFit={'contain'}
                         src="./assets/jornal.jpeg"
                         alt="Avitas"
