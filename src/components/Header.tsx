@@ -1,7 +1,10 @@
-import React from 'react'
-import { Container, Flex, Img, Link, Text } from '@chakra-ui/react'
+import React, { useState } from 'react'
+import { Container, Flex, IconButton, Img, Link, Text } from '@chakra-ui/react'
+import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
 
 export default function Header() {
+    const [display, setDisplay] = useState<string>('none')
+
     return (
         <Flex background="InfoText" w="100%">
             <Container maxW={{ base: '90%', md: '85%', lg: '80%' }}>
@@ -9,6 +12,7 @@ export default function Header() {
                     justifyContent="space-between"
                     align="center"
                     direction="row"
+                    display={['none', 'none', 'flex', 'flex']}
                 >
                     <Link href="/">
                         <Img
@@ -41,6 +45,110 @@ export default function Header() {
                         justifyContent="space-around"
                         minWidth={{ base: '100px', md: '250px', lg: '400px' }}
                     >
+                        <Link
+                            _hover={{
+                                color: 'black',
+                                transition: '0.5s'
+                            }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize={{
+                                base: 'smaller',
+                                md: 'medium',
+                                lg: 'lg'
+                            }}
+                        >
+                            Início
+                        </Link>
+                        <Link
+                            _hover={{ color: 'black', transition: '0.5s' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize={{
+                                base: 'smaller',
+                                md: 'medium',
+                                lg: 'lg'
+                            }}
+                        >
+                            A Banda
+                        </Link>
+                        <Link
+                            _hover={{ color: 'black', transition: '0.5s' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize={{
+                                base: 'smaller',
+                                md: 'medium',
+                                lg: 'lg'
+                            }}
+                        >
+                            Highlights
+                        </Link>
+                        <Link
+                            _hover={{ color: 'black', transition: '0.5s' }}
+                            mr={4}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize={{
+                                base: 'smaller',
+                                md: 'medium',
+                                lg: 'lg'
+                            }}
+                        >
+                            Hits
+                        </Link>
+                        <Link
+                            _hover={{ color: 'black', transition: '0.5s' }}
+                            fontFamily="body"
+                            fontWeight="medium"
+                            fontSize={{
+                                base: 'smaller',
+                                md: 'medium',
+                                lg: 'lg'
+                            }}
+                        >
+                            Contato
+                        </Link>
+                    </Flex>
+                </Flex>
+                <IconButton
+                    aria-label="Open Menu"
+                    size="lg"
+                    icon={<HamburgerIcon />}
+                    display={['flex', 'flex', 'none', 'none']}
+                    bg="green.500"
+                    position="absolute"
+                    right="80px"
+                    onClick={() => setDisplay('flex')}
+                />
+                <Flex
+                    w="100vw"
+                    bgColor="green.50"
+                    zIndex={20}
+                    h="100vh"
+                    position="fixed"
+                    top="0"
+                    left="0"
+                    overflowY="auto"
+                    flexDirection="column"
+                    display={display}
+                >
+                    <Flex justifyContent="flex-end">
+                        {' '}
+                        <IconButton
+                            mt={10}
+                            mr={10}
+                            aria-label="Close Menu"
+                            size="lg"
+                            icon={<CloseIcon />}
+                            onClick={() => setDisplay('none')}
+                        />
+                    </Flex>
+
+                    <Flex direction="column" alignItems="center">
                         <Link
                             _hover={{
                                 color: 'black',
