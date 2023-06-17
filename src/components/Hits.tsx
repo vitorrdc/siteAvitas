@@ -13,6 +13,7 @@ export default function Hits() {
             bgRepeat="no-repeat"
             bgSize="cover"
             py="50px"
+            width="95%"
         >
             <StreamingTittle />
             <Flex justifyContent="space-around" alignItems="center" mt="40px">
@@ -28,7 +29,7 @@ export default function Hits() {
                 >
                     <Text
                         fontWeight="medium"
-                        fontSize="xl"
+                        fontSize={{ base: 'base', md: 'lg', lg: 'xl' }}
                         color="white"
                         border="2px"
                         borderColor="green.700"
@@ -40,12 +41,16 @@ export default function Hits() {
                         Made in Brasil
                     </Text>
                     <Img
-                        boxSize={{ base: '83%', md: '166px', lg: '250px' }}
+                        boxSize={{ base: '83px', md: '166px', lg: '250px' }}
                         objectFit={'contain'}
                         src="./assets/madeInBrasilCard.png"
                         alt="Made in Brasil"
                     />
-                    <Text color="gray.300" mt="10px" fontSize="lg">
+                    <Text
+                        color="gray.300"
+                        mt="10px"
+                        fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                    >
                         Lançamento: 11/2019
                     </Text>
                     <Text color="green.500" fontWeight="bold" fontSize="lg">
@@ -54,7 +59,8 @@ export default function Hits() {
                             href="https://open.spotify.com/intl-pt/track/1toEd4ad1MYpzWgFhdeMJ9"
                             rel="noreferrer"
                         >
-                            Ouça agora no Spotify
+                            {' '}
+                            Ouça agora no Spotify!
                         </a>
                     </Text>
                 </Flex>
@@ -70,7 +76,7 @@ export default function Hits() {
                 >
                     <Text
                         fontWeight="medium"
-                        fontSize="xl"
+                        fontSize={{ base: 'base', md: 'lg', lg: 'xl' }}
                         color="white"
                         border="2px"
                         borderColor="green.700"
@@ -82,12 +88,16 @@ export default function Hits() {
                         Pare, Se Ligue
                     </Text>
                     <Img
-                        boxSize={{ base: '83%', md: '166px', lg: '250px' }}
+                        boxSize={{ base: '83px', md: '166px', lg: '250px' }}
                         objectFit={'contain'}
                         src="./assets/pareSeLigue.png"
                         alt="Made in Brasil"
                     />
-                    <Text color="gray.300" mt="10px" fontSize="lg">
+                    <Text
+                        color="gray.300"
+                        mt="10px"
+                        fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                    >
                         Lançamento: 03/2019
                     </Text>
                     <Text color="green.500" fontWeight="bold" fontSize="lg">
@@ -96,7 +106,7 @@ export default function Hits() {
                             href="https://open.spotify.com/intl-pt/track/3jKwxDGKXDoGuaUcnWNnhN"
                             rel="noreferrer"
                         >
-                            Ouça agora no Spotify
+                            Ouça agora no Spotify!
                         </a>
                     </Text>
                 </Flex>

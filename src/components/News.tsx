@@ -33,7 +33,7 @@ export default function News() {
                 mt="20px"
                 fontWeight="bold"
             >
-                ILUMINAR.
+                MÚSICA 1.
             </Box>
 
             <Flex
@@ -49,7 +49,7 @@ export default function News() {
                     fontWeight="medium"
                     width="50%"
                 >
-                    CABEÇA À TOA.
+                    MÚSICA.
                 </Text>
                 <Text
                     color="gray.400"
@@ -57,7 +57,7 @@ export default function News() {
                     mb="45px"
                     fontWeight="semibold"
                 >
-                    SERÁ.
+                    MÚSICA.
                 </Text>
             </Flex>
 
@@ -67,7 +67,7 @@ export default function News() {
                 mt={{ base: '8px', md: '16px', lg: '24px' }}
                 ml={['24px', '40px', '60px', '80px']}
             >
-                DIZ QUE GOSTA QUANDO.
+                MÚSICA.
             </Text>
             <Text
                 color="gray.400"
@@ -75,7 +75,7 @@ export default function News() {
                 mt={{ base: '8px', md: '16px', lg: '24px' }}
                 ml={['24px', '40px', '250px', '650px']}
             >
-                FLOR DO PÉ.
+                NOME DA MÚSICA.
             </Text>
         </Flex>
     )

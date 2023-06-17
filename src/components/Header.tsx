@@ -127,7 +127,7 @@ export default function Header() {
                 <Flex
                     w="100vw"
                     bgColor="green.500"
-                    opacity={0.9}
+                    opacity={0.8}
                     zIndex={20}
                     h="100vh"
                     position="fixed"

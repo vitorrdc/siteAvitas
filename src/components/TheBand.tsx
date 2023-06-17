@@ -12,6 +12,7 @@ export default function TheBand() {
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"
+            display={['none', 'flex', 'flex', 'flex']}
         >
             <Flex direction="column" w="50%">
                 {' '}
