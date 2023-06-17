@@ -12,7 +12,12 @@ export default function News() {
             bgSize="contain"
             p="30px"
         >
-            <Heading lineHeight="tall" textAlign="center" width="100%">
+            <Heading
+                lineHeight="tall"
+                textAlign="center"
+                width="100%"
+                fontSize={{ base: 'xl', md: '4xl', lg: '5xl' }}
+            >
                 <Highlight
                     query={['1 música', '45 dias']}
                     styles={{
@@ -29,7 +34,7 @@ export default function News() {
 
             <Box
                 color="gray.400"
-                fontSize={{ base: '2xl', md: '4xl', lg: '6xl' }}
+                fontSize={{ base: 'xl', md: '3xl', lg: '5xl' }}
                 mt="20px"
                 fontWeight="bold"
             >
@@ -44,8 +49,8 @@ export default function News() {
             >
                 <Text
                     color="gray.400"
-                    fontSize={{ base: 'xl', md: '2xl', lg: '4xl' }}
-                    ml={{ base: '16px', md: '12px', lg: '36px' }}
+                    fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
+                    ml={{ base: '2px', md: '12px', lg: '36px' }}
                     fontWeight="medium"
                     width="50%"
                 >
@@ -53,7 +58,7 @@ export default function News() {
                 </Text>
                 <Text
                     color="gray.400"
-                    fontSize="2xl"
+                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
                     mb="45px"
                     fontWeight="semibold"
                 >
@@ -63,17 +68,18 @@ export default function News() {
 
             <Text
                 color="gray.400"
-                fontSize="3xl"
+                fontSize={{ base: 'medium', md: 'lg', lg: 'xl' }}
                 mt={{ base: '8px', md: '16px', lg: '24px' }}
-                ml={['24px', '40px', '60px', '80px']}
+                mr={['30px', '50px', '60px', '80px']}
             >
                 MÚSICA.
             </Text>
             <Text
                 color="gray.400"
                 fontSize={{ base: 'xl', md: '2xl', lg: '4xl' }}
-                mt={{ base: '8px', md: '16px', lg: '24px' }}
-                ml={['24px', '40px', '250px', '650px']}
+                mt={{ base: '24px', md: '32px', lg: '48px' }}
+                ml={['180px', '150px', '250px', '650px']}
+                width="80%"
             >
                 NOME DA MÚSICA.
             </Text>
