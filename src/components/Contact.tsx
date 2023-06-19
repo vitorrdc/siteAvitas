@@ -64,7 +64,7 @@ export default function Contact() {
                 direction="column"
                 justifyContent="center"
                 alignItems="center"
-                minW="50%"
+                minW="75%"
             >
                 <Img
                     boxSize="100px"
