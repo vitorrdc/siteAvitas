@@ -1,4 +1,4 @@
-import { Flex, Text, Box, Img } from '@chakra-ui/react'
+import { Flex, Text, Box } from '@chakra-ui/react'
 import MusiciansTittle from './MusiciansTittle'
 import Avatar from './Avatar'
 
