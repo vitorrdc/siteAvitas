@@ -16,6 +16,7 @@ export default function Aside() {
             width="45px"
             alignItems="center"
             justifyContent="center"
+            display={['none', 'flex', 'flex', 'flex']}
         >
             <Flex
                 direction="column"

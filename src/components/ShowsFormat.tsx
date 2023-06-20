@@ -37,7 +37,7 @@ export default function ShowsFormat() {
                 </Text>
                 <Text
                     color="gray.300"
-                    fontSize={{ base: 'base', md: 'medium', lg: 'lg' }}
+                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
                     mt="15px"
                     textAlign="justify"
                 >
@@ -49,7 +49,7 @@ export default function ShowsFormat() {
                 </Text>
                 <Text
                     fontWeight="bold"
-                    fontSize={{ base: 'base', md: 'medium', lg: 'lg' }}
+                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
                     color="gray.300"
                 >
                     Duração: 1:30 a 2h.
@@ -76,7 +76,7 @@ export default function ShowsFormat() {
                 </Text>
                 <Text
                     color="gray.300"
-                    fontSize={{ base: 'base', md: 'medium', lg: 'lg' }}
+                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
                     mt="15px"
                     textAlign="justify"
                 >
@@ -88,7 +88,7 @@ export default function ShowsFormat() {
                 </Text>
                 <Text
                     fontWeight="bold"
-                    fontSize={{ base: 'base', md: 'medium', lg: 'lg' }}
+                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
                     color="gray.300"
                 >
                     Duração: 1:30 a 3h (com pausa de 20 min).

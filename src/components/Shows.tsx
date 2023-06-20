@@ -13,6 +13,7 @@ import { StarIcon } from '@chakra-ui/icons'
 import { BsFillGeoAltFill } from 'react-icons/bs'
 import ShowsTittle from './ShowsTittle'
 import { useEffect, useState } from 'react'
+import ShowsMobile from './ShowsMobile'
 
 export default function Shows() {
     const [screenWidth, setScreenWidth] = useState<number>(1000)
@@ -32,7 +33,12 @@ export default function Shows() {
             pt={10}
         >
             <ShowsTittle />
-            <Flex width="90%" justifyContent="space-around" p="30px">
+            <Flex
+                width="90%"
+                justifyContent="space-around"
+                p="30px"
+                display={['none', 'none', 'flex', 'flex']}
+            >
                 <Flex
                     justifyContent="space-around"
                     alignItems="center"
@@ -157,6 +163,7 @@ export default function Shows() {
                     </Text>
                 </Box>
             </Flex>
+            <ShowsMobile />
             <Text color="green.700" fontSize="2xl" fontWeight="semibold">
                 Casas de Show
             </Text>
