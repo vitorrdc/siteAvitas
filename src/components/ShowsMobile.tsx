@@ -1,26 +1,33 @@
-import { Box, Flex, Img, Text } from '@chakra-ui/react'
+import { StarIcon } from '@chakra-ui/icons'
+import {
+    Box,
+    Flex,
+    Img,
+    List,
+    ListIcon,
+    ListItem,
+    Text
+} from '@chakra-ui/react'
 import { BsFillGeoAltFill } from 'react-icons/bs'
 
 export default function ShowsMobile() {
     return (
         <Flex
             width="98%"
-            justifyContent="space-around"
-            p="30px"
-            display={['flex', 'flex', 'none', 'none']}
+            py="30px"
+            px="10px"
+            display={['flex', 'none', 'none', 'none']}
         >
             <Flex
                 justifyContent="space-around"
                 alignItems="center"
-                p="15px"
                 borderBottom="4px"
                 width="full"
                 borderColor="green.700"
-                bg="red"
             >
                 {' '}
                 <Img
-                    boxSize="85px"
+                    boxSize="70px"
                     objectFit={'cover'}
                     src="https://imagepng.org/wp-content/uploads/2017/11/mapa-brasil-em-branco-5.png"
                     alt="Brasil"
@@ -28,25 +35,29 @@ export default function ShowsMobile() {
             </Flex>
 
             <Box
-                border="4px"
+                border="2px"
                 borderRight="none"
                 borderBottom="none"
                 borderColor="green.700"
-                px="15px"
-                pt="15px"
-                bg="blue"
-                minWidth="50%"
+                px="5px"
+                pt="5px"
+                minWidth="auto"
             >
-                <Text color="white" fontWeight="bold" fontSize="16px">
+                <Text
+                    color="white"
+                    fontWeight="bold"
+                    fontSize="16px"
+                    whiteSpace="nowrap"
+                >
                     SÃO PAULO/SP
                 </Text>
-                <Text color="white" fontWeight="semibold" fontSize="14px">
+                <Text color="white" fontWeight="semibold" fontSize="12px">
                     MARINGÁ/PR
                 </Text>
-                <Text color="white" fontWeight="semibold" fontSize="12px">
+                <Text color="white" fontWeight="semibold" fontSize="10px">
                     SOROCABA/SP
                 </Text>
-                <Text color="white" fontWeight="semibold" fontSize="10px">
+                <Text color="white" fontWeight="semibold" fontSize="8px">
                     BOITUVA/SP
                 </Text>
                 <Text color="white" fontWeight="semibold" fontSize="8px">
