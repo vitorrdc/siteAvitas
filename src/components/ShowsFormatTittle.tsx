@@ -2,7 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function ShowsFormatTittle() {
     return (
-        <Flex justifyContent="center" alignItems="center">
+        <Flex justifyContent="center" alignItems="center" mt="10px">
             <Text
                 color="white"
                 fontFamily="body"

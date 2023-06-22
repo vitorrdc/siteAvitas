@@ -10,19 +10,20 @@ export default function News() {
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"
-            p="30px"
+            py="30px"
+            px={{ base: '5px', md: '15px', lg: '30px' }}
         >
             <Heading
                 lineHeight="tall"
                 textAlign="center"
-                width="100%"
                 fontSize={{ base: 'xl', md: '4xl', lg: '5xl' }}
+                color="gray.600"
             >
                 <Highlight
                     query={['1 música', '45 dias']}
                     styles={{
                         px: '2',
-                        py: '1',
+                        py: '0.5',
                         rounded: 'full',
                         bg: 'green.500',
                         textAlign: 'center'

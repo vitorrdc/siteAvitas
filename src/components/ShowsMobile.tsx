@@ -14,7 +14,7 @@ export default function ShowsMobile() {
     return (
         <Flex
             width="98%"
-            py="30px"
+            py="15px"
             px="10px"
             display={['flex', 'none', 'none', 'none']}
         >

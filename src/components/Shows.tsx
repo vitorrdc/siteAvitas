@@ -28,7 +28,7 @@ export default function Shows() {
             bgRepeat="repeat"
             bgSize="contain"
             alignItems="center"
-            pt={10}
+            pt={{ base: '10px', md: '20px', lg: '30px' }}
         >
             <ShowsTittle />
             <ShowsDesktop />

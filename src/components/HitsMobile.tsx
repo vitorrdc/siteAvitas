@@ -10,7 +10,7 @@ export default function HitsMobile() {
             backgroundImage="url('./assets/nuvem.png')"
             bgRepeat="no-repeat"
             bgSize="cover"
-            py="50px"
+            py="10px"
             display={['flex', 'none', 'none', 'none']}
         >
             <StreamingTittle />

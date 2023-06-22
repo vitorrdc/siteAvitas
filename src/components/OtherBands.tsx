@@ -8,58 +8,68 @@ export default function OtherBands() {
             backgroundColor="black"
             justifyContent="center"
             alignItems="center"
-            pt={10}
+            pt={{ base: '10px', md: '20px', lg: '30px' }}
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"
         >
             <OtherBandsTittle />
-            <Flex justifyContent="space-around" alignItems="center" width="90%">
+            <Flex
+                justifyContent="space-around"
+                alignItems="center"
+                width={{ base: '100%', md: '88%', lg: '88%' }}
+                mb="5px"
+            >
                 <Img
-                    boxSize={{ base: '50px', md: '100px', lg: '150px' }}
+                    boxSize={{ base: '45px', md: '100px', lg: '150px' }}
                     objectFit={'contain'}
                     src="./assets/matosecocerto.png"
                     alt="Logo Mato Seco"
                 />
 
                 <Img
-                    boxSize={{ base: '66px', md: '130px', lg: '200px' }}
+                    boxSize={{ base: '55px', md: '130px', lg: '200px' }}
                     objectFit={'contain'}
                     src="./assets/maneva.png"
                     alt="Logo Maneva"
                 />
                 <Img
-                    boxSize={{ base: '50px', md: '100px', lg: '150px' }}
+                    boxSize={{ base: '45px', md: '100px', lg: '150px' }}
                     objectFit={'contain'}
                     src="./assets/CVS.png"
                     alt="Logo Cidade Verde Sounds"
                 />
                 <Img
-                    boxSize={{ base: '50px', md: '100px', lg: '150px' }}
+                    boxSize={{ base: '45px', md: '100px', lg: '150px' }}
                     objectFit={'contain'}
                     src="./assets/nazireu.png"
                     alt="Logo Nazireu Rupestre"
                 />
             </Flex>
-            <Flex justifyContent="space-around" alignItems="center" width="88%">
+            <Flex
+                justifyContent="space-around"
+                alignItems="center"
+                width={{ base: '100%', md: '88%', lg: '88%' }}
+                mb="5px"
+            >
                 {' '}
                 <Img
-                    boxSize={{ base: '60px', md: '120px', lg: '180px' }}
+                    boxSize={{ base: '55px', md: '120px', lg: '180px' }}
                     objectFit={'contain'}
                     src="./assets/netotrindade.png"
                     alt="Logo Neto Trindade"
                 />
                 <Text
                     color="white"
-                    fontSize={{ base: '2xl', md: '4xl', lg: '7xl' }}
+                    fontSize={{ base: 'xl', md: '4xl', lg: '7xl' }}
                     fontWeight="bold"
                 >
                     VITÃO
                 </Text>
                 <Img
-                    boxSize={{ base: '83px', md: '166px', lg: '250px' }}
+                    boxSize={{ base: '50px', md: '166px', lg: '250px' }}
                     objectFit={'contain'}
-                    src="./assets/maskavo.png"
+                    src="./assets/luccascarlos.png"
                     alt="Logo Maskavo"
                 />
                 <Img
@@ -84,7 +94,7 @@ export default function OtherBands() {
                 <Img
                     boxSize={{ base: '60px', md: '120px', lg: '180px' }}
                     objectFit={'contain'}
-                    src="./assets/luccascarlos.png"
+                    src="./assets/maskavo.png"
                     alt="Logo Luccas Carlos"
                 />
             </Flex>

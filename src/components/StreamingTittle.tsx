@@ -2,7 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function StreamingTittle() {
     return (
-        <Flex justifyContent="center" alignItems="center">
+        <Flex justifyContent="center" alignItems="center" mb="10px">
             <Text
                 color="white"
                 fontFamily="body"

@@ -7,7 +7,7 @@ export default function MusiciansMobile() {
         <Flex
             direction="column"
             bg="black"
-            pt="20px"
+            pt="10px"
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"

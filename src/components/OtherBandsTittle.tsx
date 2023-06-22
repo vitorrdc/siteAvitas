@@ -2,7 +2,11 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function OtherBandsTittle() {
     return (
-        <Flex justifyContent="center" alignItems="center" mb="30px">
+        <Flex
+            justifyContent="center"
+            alignItems="center"
+            mb={{ base: '4px', md: '20px', lg: '30px' }}
+        >
             <Text
                 color="white"
                 fontFamily="body"

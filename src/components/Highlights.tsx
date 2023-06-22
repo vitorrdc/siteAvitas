@@ -1,5 +1,4 @@
-import { Box, Flex, Img, Text } from '@chakra-ui/react'
-import Revista from '../assets/revista.jpeg'
+import { Box, Flex, Img } from '@chakra-ui/react'
 import HighlightsTittle from './HighlightsTittle'
 
 export default function Highlights() {

@@ -2,7 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function ContactTittle() {
     return (
-        <Flex justifyContent="center" alignItems="center" mb="10px">
+        <Flex justifyContent="center" alignItems="center">
             <Text
                 color="white"
                 fontFamily="body"

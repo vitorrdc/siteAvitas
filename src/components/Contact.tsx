@@ -56,7 +56,7 @@ export default function Contact() {
             direction="column"
             justifyContent="center"
             alignItems="center"
-            p="30px"
+            p={{ base: '15px', md: '20px', lg: '30px' }}
         >
             <ContactTittle />
 
@@ -72,7 +72,12 @@ export default function Contact() {
                     src="./assets/logo-branco.png"
                     alt="Avitas"
                 />
-                <FormControl isRequired bg="black" p="20px" borderRadius="10px">
+                <FormControl
+                    isRequired
+                    bg="black"
+                    p={{ base: '10px', md: '20px', lg: '20px' }}
+                    borderRadius="10px"
+                >
                     <FormLabel color="white">Nome</FormLabel>
                     <Input
                         type="text"
@@ -80,6 +85,7 @@ export default function Contact() {
                         onChange={(e) => setName(e.target.value)}
                         bg="gray.400"
                         mb="20px"
+                        height={{ base: '20px', md: '30px', lg: '30px' }}
                     />
                     <FormLabel color="white">E-mail</FormLabel>
                     <Input
@@ -88,6 +94,7 @@ export default function Contact() {
                         onChange={(e) => setEmail(e.target.value)}
                         bg="gray.400"
                         mb="20px"
+                        height={{ base: '20px', md: '30px', lg: '30px' }}
                     />
                     <FormLabel color="white">Mensagem</FormLabel>
                     <Input
@@ -96,6 +103,7 @@ export default function Contact() {
                         onChange={(e) => setMessage(e.target.value)}
                         bg="gray.400"
                         minHeight="100px"
+                        height={{ base: '20px', md: '30px', lg: '30px' }}
                     />
                     <Button
                         loadingText="Submitting"

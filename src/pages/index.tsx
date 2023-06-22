@@ -24,12 +24,13 @@ export default function Home() {
             <Aside />
             <TheBand />
             <News />
-            <Musicians />
+
             <Shows />
 
             <ShowsFormat />
             <Highlights />
             <OtherBands />
+            <Musicians />
             <Hits />
 
             <Contact />

@@ -2,7 +2,12 @@ import { Flex, Text } from '@chakra-ui/react'
 
 export default function HighlightsTittle() {
     return (
-        <Flex justifyContent="center" alignItems="center" mt="30px" mb="10px">
+        <Flex
+            justifyContent="center"
+            alignItems="center"
+            mt={{ base: '10px', md: '20px', lg: '30px' }}
+            mb="10px"
+        >
             <Text
                 color="white"
                 fontFamily="body"

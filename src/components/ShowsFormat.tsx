@@ -18,7 +18,7 @@ export default function ShowsFormat() {
             <ShowsFormatTittle />
             <Flex
                 width="full"
-                px="15%"
+                px={{ base: '5%', md: '15%', lg: '15%' }}
                 backgroundImage="url('./assets/skyandstars.png')"
                 bgRepeat="repeat"
                 bgSize="cover"
@@ -29,7 +29,7 @@ export default function ShowsFormat() {
                     fontWeight="bold"
                     fontSize={{ base: '16px', md: '24px', lg: '35px' }}
                     textAlign="center"
-                    mt="30px"
+                    mt={{ base: '10px', md: '20px', lg: '30px' }}
                     bg="green.700"
                     borderRadius="full"
                 >
@@ -57,7 +57,7 @@ export default function ShowsFormat() {
             </Flex>
             <Flex
                 width="full"
-                px="15%"
+                px={{ base: '5%', md: '15%', lg: '15%' }}
                 backgroundImage="url('./assets/skyandstars.png')"
                 bgRepeat="repeat"
                 bgSize="cover"
