@@ -6,40 +6,40 @@ export default function TheBandTittle() {
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 b
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 a
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 n
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 d
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 a
             </Text>

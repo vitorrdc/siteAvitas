@@ -11,6 +11,7 @@ export default function ShowsListDesktop() {
             alignItems="center"
             display={['none', 'grid', 'grid', 'grid']}
             mt="10px"
+            mb="20px"
             px="10px"
         >
             <GridItem boxSize={2} fontSize="20px" name="Toca do Leão" />

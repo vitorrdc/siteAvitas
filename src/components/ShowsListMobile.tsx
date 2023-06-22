@@ -11,6 +11,7 @@ export default function ShowsListMobile() {
             alignItems="center"
             display={['grid', 'none', 'none', 'none']}
             mt="10px"
+            mb="10px"
             px="10px"
         >
             <GridItem boxSize={2} fontSize="12px" name="Toca do Leão" />

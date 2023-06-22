@@ -78,7 +78,7 @@ export default function News() {
                 color="gray.400"
                 fontSize={{ base: 'xl', md: '2xl', lg: '4xl' }}
                 mt={{ base: '24px', md: '32px', lg: '48px' }}
-                ml={['180px', '150px', '250px', '650px']}
+                ml={['100px', '150px', '250px', '650px']}
                 width="80%"
             >
                 NOME DA MÚSICA.

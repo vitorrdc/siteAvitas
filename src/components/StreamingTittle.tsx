@@ -7,7 +7,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 s
             </Text>
@@ -15,7 +15,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 t
             </Text>
@@ -23,7 +23,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 r
             </Text>
@@ -31,7 +31,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 e
             </Text>
@@ -39,7 +39,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 a
             </Text>
@@ -47,7 +47,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 m
             </Text>
@@ -55,7 +55,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 i
             </Text>
@@ -63,7 +63,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 n
             </Text>
@@ -71,7 +71,7 @@ export default function StreamingTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 g
             </Text>

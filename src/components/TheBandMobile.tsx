@@ -7,7 +7,6 @@ export default function TheBandMobile() {
             bg="black"
             px={3}
             pt={5}
-            pb={5}
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"
@@ -34,7 +33,7 @@ export default function TheBandMobile() {
             <Text
                 width="90%"
                 textAlign="center"
-                fontSize="28px"
+                fontSize="24px"
                 color="white"
                 fontWeight="bold"
                 mt="20px"

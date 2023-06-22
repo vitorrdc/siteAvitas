@@ -6,88 +6,88 @@ export default function HighlightsTittle() {
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 h
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 i
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 g
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 h
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 l
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 i
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 g
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 h
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 i
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 t
             </Text>
             <Text
                 color="white"
                 fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 s
             </Text>

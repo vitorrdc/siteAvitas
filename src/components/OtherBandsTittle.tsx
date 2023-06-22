@@ -7,7 +7,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 a
             </Text>
@@ -15,7 +15,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 b
             </Text>
@@ -23,7 +23,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 e
             </Text>
@@ -31,7 +31,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 r
             </Text>
@@ -47,7 +47,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 u
             </Text>
@@ -55,7 +55,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 r
             </Text>
@@ -63,7 +63,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 a
             </Text>
@@ -71,65 +71,7 @@ export default function OtherBandsTittle() {
                 color="white"
                 fontFamily="body"
                 fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-            >
-                s
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-                pl={6}
-            >
-                d
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-            >
-                e
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-                pl={6}
-            >
-                s
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-            >
-                h
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-            >
-                o
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
-            >
-                w
-            </Text>
-            <Text
-                color="white"
-                fontFamily="body"
-                fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-                p={2}
+                p={{ base: '4px', md: '8px', lg: '8px' }}
             >
                 s
             </Text>
