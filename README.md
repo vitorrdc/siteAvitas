@@ -32,7 +32,6 @@ $ git clone <https://github.com/vitorrdc/siteAvitas>
 $ cd siteAvitas
 # Instale as dependências
 $ npm install ou yarn install
-```
 # Acesse a pasta do projeto no terminal/cmd
 $ cd siteAvitas
 # Execute a aplicação em modo de desenvolvimento
