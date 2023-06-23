@@ -5,7 +5,8 @@ export default function OtherBandsTittle() {
         <Flex
             justifyContent="center"
             alignItems="center"
-            mb={{ base: '4px', md: '20px', lg: '30px' }}
+            mb={{ base: '10px', md: '20px', lg: '30px' }}
+            mt="20px"
         >
             <Text
                 color="white"

@@ -51,20 +51,25 @@ export default function ShowsMobile() {
                 >
                     SÃO PAULO/SP
                 </Text>
-                <Text color="white" fontWeight="semibold" fontSize="12px">
+                <Text
+                    color="white"
+                    fontWeight="semibold"
+                    fontSize="12px"
+                    fontFamily="body"
+                >
                     MARINGÁ/PR
                 </Text>
                 <Text color="white" fontWeight="semibold" fontSize="10px">
                     SOROCABA/SP
                 </Text>
                 <Text color="white" fontWeight="semibold" fontSize="8px">
-                    BOITUVA/SP
-                </Text>
-                <Text color="white" fontWeight="semibold" fontSize="8px">
                     ITAPETININGA/SP
                 </Text>
                 <Text color="white" fontWeight="semibold" fontSize="8px">
                     PORTO FELIZ/SP
+                </Text>
+                <Text color="white" fontWeight="semibold" fontSize="8px">
+                    BOITUVA/SP
                 </Text>
                 <Text color="white" fontWeight="semibold" fontSize="8px">
                     IPERÓ/SP

@@ -36,8 +36,8 @@ export default function ShowsFormat() {
                     Casa de Shows
                 </Text>
                 <Text
-                    color="gray.300"
-                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                    color="white"
+                    fontSize={{ base: '12px', md: 'medium', lg: 'lg' }}
                     mt="15px"
                     textAlign="justify"
                 >
@@ -49,7 +49,7 @@ export default function ShowsFormat() {
                 </Text>
                 <Text
                     fontWeight="bold"
-                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                    fontSize={{ base: '12px', md: 'medium', lg: 'lg' }}
                     color="gray.300"
                 >
                     Duração: 1:30 a 2h.
@@ -75,8 +75,8 @@ export default function ShowsFormat() {
                     Bares/Festas Privadas
                 </Text>
                 <Text
-                    color="gray.300"
-                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                    color="white"
+                    fontSize={{ base: '12px', md: 'medium', lg: 'lg' }}
                     mt="15px"
                     textAlign="justify"
                 >
@@ -88,7 +88,7 @@ export default function ShowsFormat() {
                 </Text>
                 <Text
                     fontWeight="bold"
-                    fontSize={{ base: 'sm', md: 'medium', lg: 'lg' }}
+                    fontSize={{ base: '12px', md: 'medium', lg: 'lg' }}
                     color="gray.300"
                 >
                     Duração: 1:30 a 3h (com pausa de 20 min).

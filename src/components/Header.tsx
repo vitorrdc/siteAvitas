@@ -1,6 +1,15 @@
 import React, { useState } from 'react'
-import { Container, Flex, IconButton, Img, Link, Text } from '@chakra-ui/react'
+import {
+    Box,
+    Container,
+    Flex,
+    IconButton,
+    Img,
+    Link,
+    Text
+} from '@chakra-ui/react'
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
+import MobileHeader from './MobileHeader'
 
 export default function Header() {
     const [display, setDisplay] = useState<string>('none')
@@ -12,7 +21,7 @@ export default function Header() {
                     justifyContent="space-between"
                     align="center"
                     direction="row"
-                    display={['none', 'none', 'flex', 'flex']}
+                    display={['none', 'flex', 'flex', 'flex']}
                 >
                     <Link href="/">
                         <Img
@@ -27,6 +36,7 @@ export default function Header() {
                         color="white"
                         fontSize={{ base: 'sm', md: 'md', lg: '3xl' }}
                         fontWeight="extrabold"
+                        display={['none', 'none', 'flex', 'flex']}
                     >
                         #HipRockRoots
                     </Text>
@@ -114,16 +124,22 @@ export default function Header() {
                         </Link>
                     </Flex>
                 </Flex>
-                <IconButton
-                    aria-label="Open Menu"
-                    size="lg"
-                    icon={<HamburgerIcon />}
-                    display={['flex', 'flex', 'none', 'none']}
-                    bg="green.500"
-                    position="absolute"
-                    right="80px"
-                    onClick={() => setDisplay('flex')}
-                />
+                <Flex
+                    display={['flex', 'none', 'none', 'none']}
+                    justifyContent="center"
+                >
+                    <IconButton
+                        aria-label="Open Menu"
+                        size="xs"
+                        icon={<HamburgerIcon />}
+                        display={['flex', 'flex', 'none', 'none']}
+                        bg="green.500"
+                        onClick={() => setDisplay('flex')}
+                        position="absolute"
+                        left="10px"
+                    />
+                    <MobileHeader />
+                </Flex>
                 <Flex
                     w="100vw"
                     bgColor="green.500"
