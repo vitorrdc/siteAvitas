@@ -46,7 +46,7 @@ export default function ShowsMobile() {
                 <Text
                     color="white"
                     fontWeight="bold"
-                    fontSize="16px"
+                    fontSize="14px"
                     whiteSpace="nowrap"
                 >
                     SÃO PAULO/SP

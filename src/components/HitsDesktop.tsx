@@ -1,7 +1,7 @@
 import { Flex, Img, Text } from '@chakra-ui/react'
 import StreamingTittle from './StreamingTittle'
 
-export default function HitsMobile() {
+export default function HitsDesktop() {
     return (
         <Flex
             direction="column"
@@ -10,11 +10,11 @@ export default function HitsMobile() {
             backgroundImage="url('./assets/nuvem.png')"
             bgRepeat="no-repeat"
             bgSize="cover"
-            py="10px"
-            display={['flex', 'none', 'none', 'none']}
+            py="50px"
+            display={['none', 'flex', 'flex', 'flex']}
         >
             <StreamingTittle />
-            <Flex direction="column" px="20%">
+            <Flex justifyContent="space-around" alignItems="center" mt="40px">
                 <Flex
                     direction="column"
                     justifyContent="center"
@@ -24,7 +24,6 @@ export default function HitsMobile() {
                     borderColor="green.700"
                     borderRadius="10px"
                     bg="black"
-                    mb="15px"
                 >
                     <Text
                         fontWeight="medium"
@@ -63,7 +62,7 @@ export default function HitsMobile() {
                             rel="noreferrer"
                         >
                             {' '}
-                            Ouça no Spotify
+                            Ouça no Spotify{' '}
                         </a>
                     </Text>
                 </Flex>

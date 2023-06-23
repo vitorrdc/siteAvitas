@@ -78,7 +78,12 @@ export default function Contact() {
                     p={{ base: '10px', md: '20px', lg: '20px' }}
                     borderRadius="10px"
                 >
-                    <FormLabel color="white">Nome</FormLabel>
+                    <FormLabel
+                        color="white"
+                        fontSize={{ base: '10px', md: '12px', lg: '16px' }}
+                    >
+                        Nome
+                    </FormLabel>
                     <Input
                         type="text"
                         value={name}
@@ -87,7 +92,12 @@ export default function Contact() {
                         mb="20px"
                         height={{ base: '20px', md: '30px', lg: '30px' }}
                     />
-                    <FormLabel color="white">E-mail</FormLabel>
+                    <FormLabel
+                        color="white"
+                        fontSize={{ base: '10px', md: '12px', lg: '16px' }}
+                    >
+                        E-mail
+                    </FormLabel>
                     <Input
                         type="email"
                         value={email}
@@ -96,7 +106,12 @@ export default function Contact() {
                         mb="20px"
                         height={{ base: '20px', md: '30px', lg: '30px' }}
                     />
-                    <FormLabel color="white">Mensagem</FormLabel>
+                    <FormLabel
+                        color="white"
+                        fontSize={{ base: '10px', md: '12px', lg: '16px' }}
+                    >
+                        Mensagem
+                    </FormLabel>
                     <Input
                         type="text"
                         value={message}
@@ -109,10 +124,12 @@ export default function Contact() {
                         loadingText="Submitting"
                         colorScheme="green"
                         variant="solid"
-                        minW="30%"
                         mt="15px"
                         type="submit"
                         onClick={sendEmail}
+                        fontSize={{ base: '10px', md: '12px', lg: '16px' }}
+                        width="100%"
+                        height={{ base: '24px', md: '32px', lg: '40px' }}
                     >
                         Enviar
                     </Button>
