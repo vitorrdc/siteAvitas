@@ -10,7 +10,6 @@ export default function News() {
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"
-            py="30px"
             px={{ base: '5px', md: '15px', lg: '30px' }}
         >
             <Heading
@@ -79,8 +78,7 @@ export default function News() {
                 color="gray.400"
                 fontSize={{ base: 'xl', md: '2xl', lg: '4xl' }}
                 mt={{ base: '24px', md: '32px', lg: '48px' }}
-                ml={['50px', '150px', '250px', '650px']}
-                width="80%"
+                ml={['50px', '150px', '250px', '50%']}
             >
                 NOME DA MÚSICA.
             </Text>

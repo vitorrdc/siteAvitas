@@ -1,5 +1,4 @@
-import { ArrowDownIcon, EmailIcon, Icon } from '@chakra-ui/icons'
-import { Box, Flex, Text } from '@chakra-ui/react'
+import { Box, Flex } from '@chakra-ui/react'
 import { FaInstagram, FaSpotify, FaYoutube } from 'react-icons/fa'
 
 export default function MobileHeader() {

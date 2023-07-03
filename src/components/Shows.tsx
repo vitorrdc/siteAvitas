@@ -1,22 +1,12 @@
 'use client'
 
-import {
-    Box,
-    Flex,
-    Img,
-    List,
-    ListIcon,
-    ListItem,
-    Text
-} from '@chakra-ui/react'
-import { StarIcon } from '@chakra-ui/icons'
-import { BsFillGeoAltFill } from 'react-icons/bs'
+import { Flex, Text } from '@chakra-ui/react'
+
 import ShowsTittle from './ShowsTittle'
-import { useEffect, useState } from 'react'
+
 import ShowsMobile from './ShowsMobile'
 import ShowsDesktop from './ShowsDesktop'
 import ShowsListMobile from './ShowsListMobile'
-import { FaCloudShowersHeavy } from 'react-icons/fa'
 import ShowsListDesktop from './ShowListDesktop'
 
 export default function Shows() {
@@ -28,7 +18,7 @@ export default function Shows() {
             bgRepeat="repeat"
             bgSize="contain"
             alignItems="center"
-            pt={{ base: '10px', md: '20px', lg: '30px' }}
+            pt={{ base: '10px', md: '20px', lg: '20px' }}
         >
             <ShowsTittle />
             <ShowsDesktop />

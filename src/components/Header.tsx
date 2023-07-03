@@ -1,13 +1,5 @@
 import React, { useState } from 'react'
-import {
-    Box,
-    Container,
-    Flex,
-    IconButton,
-    Img,
-    Link,
-    Text
-} from '@chakra-ui/react'
+import { Container, Flex, IconButton, Img, Link, Text } from '@chakra-ui/react'
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
 import MobileHeader from './MobileHeader'
 
@@ -68,6 +60,7 @@ export default function Header() {
                                 md: 'medium',
                                 lg: 'lg'
                             }}
+                            href="/"
                         >
                             Início
                         </Link>

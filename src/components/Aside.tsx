@@ -11,7 +11,7 @@ export default function Aside() {
         <Flex
             h="100vh"
             position="fixed"
-            background="black"
+            background="transparent"
             right={0}
             width="45px"
             alignItems="center"
@@ -23,7 +23,7 @@ export default function Aside() {
                 justifyContent="space-around"
                 alignItems="center"
                 px={{ base: '4px', md: '8px', lg: '12px' }}
-                py={{ base: '2px', md: '4px', lg: '8px' }}
+                py={{ base: '4px', md: '8px', lg: '12px' }}
                 bg="gray.500"
                 borderRadius="lg"
                 _hover={{

@@ -1,5 +1,4 @@
-import { StarIcon } from '@chakra-ui/icons'
-import { Flex, Grid, List, ListIcon, ListItem } from '@chakra-ui/react'
+import { Grid } from '@chakra-ui/react'
 import GridItem from './GridItem'
 
 export default function ShowsListDesktop() {

@@ -7,7 +7,7 @@ export default function TheBandDesktop() {
             bg="black"
             px={10}
             pt={5}
-            pb={20}
+            pb={{ base: '10px', md: '20px', lg: '30px' }}
             backgroundImage="url('./assets/skyandstars.png')"
             bgRepeat="repeat"
             bgSize="contain"

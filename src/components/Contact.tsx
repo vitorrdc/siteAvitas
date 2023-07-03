@@ -4,8 +4,7 @@ import {
     FormControl,
     FormLabel,
     Img,
-    Input,
-    Text
+    Input
 } from '@chakra-ui/react'
 import ContactTittle from './ContactTittle'
 import { useState } from 'react'
